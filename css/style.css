@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global css */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(33, 33, 33);
+    text-align: center;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(134, 135, 139);
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    color: #ffaf76;
+    margin: 0 auto;
+}
+
+/* header-top css */
+.header-top{
+width: 100%;
+padding: 12px 0 10px;
+background: #da6614;
+}
+.header-top .top-1{
+    
+}
+.header-top .top-1 p{
+    color: #ffff;
+    font-size: 16px;
+}
+.header-top .top-1 p span{
+    padding-left: 10px;
+}
+.header-top .top-2{
+    text-align: end;
+    color: #ffff;
+    font-size: 26px;
+}
+.header-top .top-2 i{
+    margin: 0 10px 0;
+}
+/* header css */
+.header-section{
+    width: 100%;
+    padding: 10px 0;
+    background: #e4e1e1;
+
+}
+.navbar .nav-link {
+    color: #000!important;
+    margin: 0 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* beaner-section */
+.beaner-section{
+    width: 100%;
+    background: url(../img/beanner.png)center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.beaner-section .container{
+  
+
+}
+.beaner-section .f-bennar{
+    margin-top: 20%;
+}
+.beaner-section .f-bennar h2{
+    color: #ffff;
+    text-align: left;
+    width: 31%;
+
+}
+.beaner-section .f-bennar p{
+    color: #ffff;
+    width: 47%;
+}
+.btn-primary{
+background: #da6614;
+border-radius: 0;
+border: 1px solid #da6614;
+padding: 8px 23px;
+}
+.feature-section{
+    width: 100%;
+    padding: 70px;
+
+}
+.feature-section{
+padding: 80px 30px;
+}
+
+.feature-section .s-item{
+background: #e4e1e1;
+padding: 22px;
+}
+
+.feature-section .s-item i{
+    margin-left: 50px;
+    font-size: 36px;
+    border: 1px solid #da6614;
+    padding: 16px;
+    border-radius: 50%;
+    background: transparent;    
+    color: #ffaf76;
+
+}
+.feature-section .s-item h4{
+    font-size: 20px;
+    line-height: 28px;
+    width: 76%;
+}
+.feature-section .s-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(134, 135, 139);
+    width: 112%;
+}
+/* about section css */
+.about-section{
+    width: 100%;
+}
+.about-section .e-about{
+    
+}
+.about-section .e-about h6{
+   color: #ffaf76;
+   font-weight: 500;
+}
+.about-section .e-about h2{
+    text-align: start;
+    width: 66%;
+    margin-top: 16px;
+}
